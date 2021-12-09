@@ -3,4 +3,4 @@ format:
 	pip install black isort mypy
 	black *.py
 	isort *.py
-	mypy *.py
+	mypy --strict *.py
